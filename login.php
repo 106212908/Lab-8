@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-    <!-- Meta Here-->
+    <title>Login Page</title>
 </head>
 <body>
     <form action="login.php" method="post">

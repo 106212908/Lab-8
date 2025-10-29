@@ -3,7 +3,7 @@ session_start();
 require_once("settings.php");
 
 if (!isset($_SESSION["username"])) {
-    header("location: login.html");
+    header("location: login.php");
     exit();
 }
 
